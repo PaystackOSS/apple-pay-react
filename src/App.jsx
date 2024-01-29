@@ -15,7 +15,7 @@ function App() {
       currency: 'NGN',
       container: 'paystack-apple-pay',
       style: { 
-        theme: 'white',
+        theme: 'dark',
         applePay: { 
           margin: '10px',
           padding: '10px',
