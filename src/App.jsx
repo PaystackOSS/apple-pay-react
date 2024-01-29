@@ -14,15 +14,14 @@ function App() {
       amount: 10000,
       currency: 'NGN',
       container: 'paystack-apple-pay',
-      loadPaystackCheckoutButton: 'paystack-other-channels',
       style: { 
-        theme: 'dark',
+        theme: 'white',
         applePay: { 
           margin: '10px',
           padding: '10px',
           width: '100%',
-          borderRadius: '5px',
-          type: 'pay', // Default value is 'pay'. See other apple pay button types here https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css
+          borderRadius: '8px',
+          type: 'pay',
           locale: 'en'
         } 
       }, // custom styles for button elements
